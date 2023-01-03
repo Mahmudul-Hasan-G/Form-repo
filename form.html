@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shantor Kachari</title>
+        <style>
+            label {
+                display: block;
+                margin-bottom: 20px;
+            }
+            legend{
+              margin: 20px;
+            }
+            fieldset{
+              margin-bottom: 20px;
+            }
+            table{
+             border-collapse: collapse;
+             margin-top: 20px;
+            }
+            th , td{
+              border: 1px solid black;
+              padding: 5px 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Eso kichukkhon porasona kori</h2>
+        <form action="">
+            <label for="name">Your Name
+                <input id="name" type="text" placeholder="Your Name">
+            </label>
+            <label for="email">Your Email
+                <input id="email" type="text" placeholder="Your Email">
+            </label>
+            <label for="phone">Your Phone Number
+                <input id="phone" type="number" placeholder="Your Phone Number">
+            </label>
+            <fieldset>
+                <legend>Pick One Subject</legend>
+                <label for="math">
+                    <input type="radio" name="subject" id="math">Math
+                </label>
+                <label for="physics">
+                    <input type="radio" name="subject" id="physics">Physics
+                </label>
+                <label for="chemistry">
+                    <input type="radio" name="subject" id="chemistry">Chemistry
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Select The Catagory You Want</legend>
+                <label for="basic">
+                    <input type="checkbox" name="Catagory" id="basic">Basic
+                </label>
+                <label for="formula">
+                    <input type="checkbox" name="Catagory" id="formula">Formula
+                </label>
+                <label for="theory">
+                    <input type="checkbox" name="Catagory" id="theory">Theory
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Request</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>Subject</th>
+              <th>Time</th>
+              <th>Fees</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Math</td>
+              <td>12 month</td>
+              <td>18000</td>
+            </tr>       
+            <tr>
+              <td>2</td>
+              <td>Physics</td>
+              <td>12 month</td>
+              <td>21000</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Chemistry</td>
+              <td>12 month</td>
+              <td>24000</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>All</td>
+              <td>18 month</td>
+              <td>36000</td>
+            </tr>
+          </tbody>
+        </table>
+
+    </body>
+</html>
